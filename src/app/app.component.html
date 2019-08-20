@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+        <a href routerLink="/" class ="navbar-brand">BRANCHES</a>
+      <button class ="navbar-toggle" data-toggle="collapse" data-target ="#bank">
+      <span class ="icon-bar"></span>
+      <span class ="icon-bar"></span>
+      <span class ="icon-bar"></span>
+      
+    </button>
+    </div>
+    <div class = "collapse navbar-collapse" id ="bank">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href routerLink="/banks">Bank</a>
+        </li>  
+      </ul>
+  </div>
+  </div>
+</nav>
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
